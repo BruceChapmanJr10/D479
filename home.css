@@ -49,13 +49,12 @@ a:hover {
 }
 
 .homeText {
-  line-height: 22px;
-  text-align: left;
-  font-weight: bold;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 20px;
   color: rgb(39, 23, 184);
-  letter-spacing: 2px;
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -82,6 +81,10 @@ a:hover {
 
 #aboutTitle {
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 28px;
   text-align: center;
+}
+
+body {
+  margin: 0;
 }

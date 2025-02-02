@@ -1,0 +1,40 @@
+h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.lodgingImgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.lodgingImg {
+  width: 400px;
+  border-radius: 8px;
+}
+p {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+  line-height: 30px;
+}
+
+.lodgingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#lodgingBtn {
+  margin-top: 15px;
+  text-align: center;
+}
+body {
+  background: rgb(5, 80, 150);
+}
