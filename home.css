@@ -3,9 +3,7 @@
 }
 
 nav {
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-right: 4px;
+  padding: 7px 4px;
   background: #4682b4;
   display: flex;
   justify-content: space-between;

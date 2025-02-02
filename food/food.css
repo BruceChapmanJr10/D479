@@ -1,0 +1,40 @@
+body {
+  background: rgb(5, 80, 150);
+}
+
+.foodContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.foodImgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  margin-top: 20px;
+}
+img {
+  border-radius: 8px;
+  width: 400px;
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+p,
+ul {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  line-height: 30px;
+}
+li {
+  padding-top: 3px;
+}
