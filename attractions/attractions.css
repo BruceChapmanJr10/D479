@@ -1,0 +1,43 @@
+body {
+  background: rgb(5, 80, 150);
+}
+
+.attractionImgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.attractionImg {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.siteseeingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.siteseeingTitle {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.siteseeingText {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+  line-height: 30px;
+}
+
+.entertainmentImg {
+  margin-top: 80px;
+  border-radius: 50%;
+  width: 200px;
+}
