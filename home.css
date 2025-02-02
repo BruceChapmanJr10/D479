@@ -90,3 +90,8 @@ body {
 main {
   padding: 10px;
 }
+
+.bookBtn {
+  color: white;
+  text-decoration: none;
+}
