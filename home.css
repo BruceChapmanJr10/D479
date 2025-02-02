@@ -21,3 +21,66 @@ nav a {
 a:hover {
   color: #00bfff;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.homeImg {
+  width: 100%;
+  height: 100vh;
+}
+
+.homeTitle {
+  letter-spacing: 2px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title {
+  display: block;
+  font-family: "Pacifico", serif;
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+
+.homeText {
+  text-align: left;
+  font-weight: bold;
+  color: rgb(39, 23, 184);
+  letter-spacing: 2px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.homeBtn {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  font-size: 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 15px;
+  background: #4682b4;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#aboutTitle {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}

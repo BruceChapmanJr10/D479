@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <title>Home</title>
   </head>
   <body>
+    <!-- navbar -->
     <nav>
       <div class="homeLink">
         <a href="/">Home</a>
@@ -19,5 +26,28 @@
         <a href="./faqs/faqs.html">FAQs</a>
       </div>
     </nav>
+
+    <!-- Main -->
+    <div class="container">
+      <img class="homeImg" src="./images/IslandMain.jpg" alt="island image" />
+      <div>
+        <h1 class="homeTitle">Welcome to <span id="title">Taniti</span></h1>
+      </div>
+      <div class="homeText">
+        <h3 id="aboutTitle">About</h3>
+        <p>
+          Taniti is a small, tropical island in the Pacific. While the island
+          has an area of less than 500 square miles, the terrain is varied and
+          includes both sandy and rocky beaches, a small but safe harbor, lush
+          tropical rainforests, and a mountainous interior that includes a
+          small, active volcano. Taniti has an indigenous population of about
+          20,000. Until a recent increase in tourism, most the Tanitian economy
+          was dominated by fishing or agriculture.
+        </p>
+      </div>
+      <div class="homeBtn">
+        <button class="btn">Book Now</button>
+      </div>
+    </div>
   </body>
 </html>
