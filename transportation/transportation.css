@@ -1,0 +1,51 @@
+body {
+  background: rgb(5, 80, 150);
+}
+
+.transportationImgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.transportImg {
+  width: 500px;
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  line-height: 30px;
+}
+
+.groundContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.groundImgs {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.groundImg {
+  width: 600px;
+  border-radius: 8px;
+}
+
+.groundText {
+  margin-top: 50px;
+}
