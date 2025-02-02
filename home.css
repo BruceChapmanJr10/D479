@@ -88,3 +88,7 @@ a:hover {
 body {
   margin: 0;
 }
+
+main {
+  padding: 10px;
+}
